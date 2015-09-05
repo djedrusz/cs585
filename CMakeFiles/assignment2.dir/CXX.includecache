@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dom/Desktop/cs585/assignment2/game.m.cpp
+cstdio
+-
+src/engine/memory/default_allocator.hpp
+/home/dom/Desktop/cs585/assignment2/src/engine/memory/default_allocator.hpp
+src/engine/memory/counting_allocator.hpp
+/home/dom/Desktop/cs585/assignment2/src/engine/memory/counting_allocator.hpp
+src/engine/containers/dynamic_array.hpp
+/home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.hpp
+
+/home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.hpp
+cstring
+-
+../memory/default_allocator.hpp
+/home/dom/Desktop/cs585/assignment2/src/engine/memory/default_allocator.hpp
+
+/home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.hpp
+
+/home/dom/Desktop/cs585/assignment2/src/engine/memory/counting_allocator.hpp
+allocator.hpp
+/home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.hpp
+
+/home/dom/Desktop/cs585/assignment2/src/engine/memory/default_allocator.hpp
+allocator.hpp
+/home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.hpp
+

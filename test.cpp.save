@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+template<typename T>
+class v {
+public:
+	virtual void test() = 0;
+}
+
+template<typename T>
+class b : public v<T>{
+private:
+	T data;
+public:
+	b(T t); 
+	void test()(int argc, char** argv) {
+	b tester(2);
+	tester.test();
+	return 0;
+}
