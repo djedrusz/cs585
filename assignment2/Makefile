@@ -135,6 +135,30 @@ game.m.cpp.s:
 	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/game.m.cpp.s
 .PHONY : game.m.cpp.s
 
+src/engine/containers/dynamic_array.o: src/engine/containers/dynamic_array.cpp.o
+.PHONY : src/engine/containers/dynamic_array.o
+
+# target to build an object file
+src/engine/containers/dynamic_array.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o
+.PHONY : src/engine/containers/dynamic_array.cpp.o
+
+src/engine/containers/dynamic_array.i: src/engine/containers/dynamic_array.cpp.i
+.PHONY : src/engine/containers/dynamic_array.i
+
+# target to preprocess a source file
+src/engine/containers/dynamic_array.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i
+.PHONY : src/engine/containers/dynamic_array.cpp.i
+
+src/engine/containers/dynamic_array.s: src/engine/containers/dynamic_array.cpp.s
+.PHONY : src/engine/containers/dynamic_array.s
+
+# target to generate assembly for a file
+src/engine/containers/dynamic_array.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s
+.PHONY : src/engine/containers/dynamic_array.cpp.s
+
 src/engine/memory/allocator.o: src/engine/memory/allocator.cpp.o
 .PHONY : src/engine/memory/allocator.o
 
@@ -219,6 +243,9 @@ help:
 	@echo "... game.m.o"
 	@echo "... game.m.i"
 	@echo "... game.m.s"
+	@echo "... src/engine/containers/dynamic_array.o"
+	@echo "... src/engine/containers/dynamic_array.i"
+	@echo "... src/engine/containers/dynamic_array.s"
 	@echo "... src/engine/memory/allocator.o"
 	@echo "... src/engine/memory/allocator.i"
 	@echo "... src/engine/memory/allocator.s"

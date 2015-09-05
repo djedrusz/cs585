@@ -21,6 +21,24 @@ namespace sgdm { // Stevens Game Development Memory.
 		deallocations = 0;
 	}
 
+	/* Copy constructor. */
+	template<typename T>
+	CountingAllocator<T>::CountingAllocator(const CountingAllocator<T>& countingAllocator) {
+		allocations = countingAllocator.getAllocations();
+		deallocations = countingAllocator.getDeallocations();
+	}
+
+	/* Copy assignment operator. */
+	template<typename T>
+	CountingAllocator<T>& CountingAllocator<T>::operator = (const CountingAllocator<T>& countingAllocator) {
+		/* Avoid self-assignment. */
+		if (*this != countingAllocator) {
+			;
+		}
+
+		return *this;
+	}
+
 	/* Allocate the specified amount of memory and return a pointer to the newly allocated memory block. */
 	template<typename T>
 	T* CountingAllocator<T>::allocate(unsigned int count) {

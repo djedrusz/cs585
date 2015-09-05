@@ -5,12 +5,17 @@
 	TODO.
 */
 
+#include <cstdio>
 #include "src/engine/memory/counting_allocator.hpp"
-#include <stdio.h>
+#include "src/engine/containers/dynamic_array.hpp"
 
 /* TODO. */
 int main(int argc, char** argv) {
-	sgdm::CountingAllocator<int> da();
-	printf("success");
-	return 0;
+	sgdc::DynamicArray<int>* da = new sgdc::DynamicArray<int>(10);
+	/*sgdm::CountingAllocator<int> ca;
+	sgdc::DynamicArray<int> da(10);
+	da.append(7);
+
+
+	printf("Expected = 10,\tActual = %u", ca.getAllocations());*/
 }

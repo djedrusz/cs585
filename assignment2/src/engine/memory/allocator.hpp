@@ -13,12 +13,7 @@ namespace sgdm { // Stevens Game Development Memory.
 	template<typename T>
 	class Allocator {
 		private:
-			/* Data Member(s). */
-			/* Function(s). */
 		public:
-			/* Constructor(s). */
-			/* Destructor(s). */
-			/* Data Member(s). */
 			/* Function(s). */
 			virtual T* allocate(unsigned int count) = 0; // Allocate the specified amount of memory and return a pointer to the newly created memory block.
 			virtual void deallocate(T* memoryBlock, unsigned int count) = 0; // Deallocate the specified amount of memory from the specified memory block.

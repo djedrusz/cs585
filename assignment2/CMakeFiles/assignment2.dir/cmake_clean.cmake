@@ -2,6 +2,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o"
   "CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o"
   "CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o"
+  "CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o"
   "CMakeFiles/assignment2.dir/game.m.cpp.o"
   "assignment2.pdb"
   "assignment2"

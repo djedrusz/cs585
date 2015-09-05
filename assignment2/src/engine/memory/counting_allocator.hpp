@@ -15,26 +15,26 @@ namespace sgdm { // Stevens Game Development Memory.
 	template<typename T>
 	class CountingAllocator : public Allocator<T> {
 		private:
-		/* Data Member(s). */
-		unsigned int allocations; // The number of allocations.
-		unsigned int deallocations; // The number of deallocations.
-		static unsigned int totalAllocations; // The number of allocations across all "CountingAllocator" instances.
-		static unsigned int totalDeallocations; // The number of deallocations across all "CountingAllocator" instances.
-		/* Function(s). */
+			/* Data member(s). */
+			unsigned int allocations; // The number of allocations.
+			unsigned int deallocations; // The number of deallocations.
+			static unsigned int totalAllocations; // The number of allocations across all "CountingAllocator" instances.
+			static unsigned int totalDeallocations; // The number of deallocations across all "CountingAllocator" instances.
 		public:
-		/* Constructor(s). */
-		CountingAllocator(); // Default constructor.
-		/* Destructor(s). */
-		/* Data Member(s). */
-		/* Function(s). */
-		T* allocate(unsigned int count); // Allocate the specified amount of memory and return a pointer to the newly formed memory block.
-		void deallocate(T* memoryBlock, unsigned int count); // Deallocate the specified amount of memory from the memory block.
-		const unsigned int getAllocations(); // Return the number of allocations.
-		const unsigned int getDeallocations(); // Return the number of deallocations.
-		const unsigned int getOutstandingAllocations(); // Return the number of outstanding allocations.
-		const unsigned int getTotalAllocations(); // Return the number of allocations across all "CountingAllocator" intances.
-		const unsigned int getTotalDeallocations(); // Return the number of deallocations across all "CountingAllocator" instances.
-		const unsigned int getTotalOutstandingAllocations(); // Return the number of outstanding allocations across all "CountingAllocator" instances.
+			/* Constructor(s). */
+			CountingAllocator(); // Default constructor.
+			CountingAllocator(const CountingAllocator<T>& countingAllocator); // Copy contructor.
+			/* Operators. */
+			CountingAllocator<T>& operator = (const CountingAllocator<T>& countingAllocator); // Copy assignment operator.
+			/* Function(s). */
+			T* allocate(unsigned int count); // Allocate the specified amount of memory and return a pointer to the newly formed memory block.
+			void deallocate(T* memoryBlock, unsigned int count); // Deallocate the specified amount of memory from the memory block.
+			const unsigned int getAllocations(); // Return the number of allocations.
+			const unsigned int getDeallocations(); // Return the number of deallocations.
+			const unsigned int getOutstandingAllocations(); // Return the number of outstanding allocations.
+			const unsigned int getTotalAllocations(); // Return the number of allocations across all "CountingAllocator" intances.
+			const unsigned int getTotalDeallocations(); // Return the number of deallocations across all "CountingAllocator" instances.
+			const unsigned int getTotalOutstandingAllocations(); // Return the number of outstanding allocations across all "CountingAllocator" instances.
 	};
 }
 

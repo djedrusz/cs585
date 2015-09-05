@@ -118,9 +118,32 @@ CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o.provides: 
 
 CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o.provides.build: CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o
 
+CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o: CMakeFiles/assignment2.dir/flags.make
+CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o: src/engine/containers/dynamic_array.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/assignment2/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o -c /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.cpp
+
+CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.cpp > CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i
+
+CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.cpp -o CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s
+
+CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.requires:
+.PHONY : CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.requires
+
+CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.provides: CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.requires
+	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.provides.build
+.PHONY : CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.provides
+
+CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.provides.build: CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o
+
 CMakeFiles/assignment2.dir/game.m.cpp.o: CMakeFiles/assignment2.dir/flags.make
 CMakeFiles/assignment2.dir/game.m.cpp.o: game.m.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/assignment2/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/assignment2/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/assignment2.dir/game.m.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/game.m.cpp.o -c /home/dom/Desktop/cs585/assignment2/game.m.cpp
 
@@ -146,6 +169,7 @@ assignment2_OBJECTS = \
 "CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o" \
 "CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o" \
 "CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o" \
+"CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o" \
 "CMakeFiles/assignment2.dir/game.m.cpp.o"
 
 # External object files for target assignment2
@@ -154,6 +178,7 @@ assignment2_EXTERNAL_OBJECTS =
 assignment2: CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o
 assignment2: CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o
 assignment2: CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o
+assignment2: CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o
 assignment2: CMakeFiles/assignment2.dir/game.m.cpp.o
 assignment2: CMakeFiles/assignment2.dir/build.make
 assignment2: CMakeFiles/assignment2.dir/link.txt
@@ -167,6 +192,7 @@ CMakeFiles/assignment2.dir/build: assignment2
 CMakeFiles/assignment2.dir/requires: CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o.requires
 CMakeFiles/assignment2.dir/requires: CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o.requires
 CMakeFiles/assignment2.dir/requires: CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o.requires
+CMakeFiles/assignment2.dir/requires: CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.requires
 CMakeFiles/assignment2.dir/requires: CMakeFiles/assignment2.dir/game.m.cpp.o.requires
 .PHONY : CMakeFiles/assignment2.dir/requires
 

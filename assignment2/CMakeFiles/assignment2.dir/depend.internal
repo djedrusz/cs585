@@ -3,8 +3,15 @@
 
 CMakeFiles/assignment2.dir/game.m.cpp.o
  /home/dom/Desktop/cs585/assignment2/game.m.cpp
+ /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.hpp
  /home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.hpp
  /home/dom/Desktop/cs585/assignment2/src/engine/memory/counting_allocator.hpp
+ /home/dom/Desktop/cs585/assignment2/src/engine/memory/default_allocator.hpp
+CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o
+ /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.cpp
+ /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.hpp
+ /home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.hpp
+ /home/dom/Desktop/cs585/assignment2/src/engine/memory/default_allocator.hpp
 CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o
  /home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.cpp
  /home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.hpp
