@@ -84,6 +84,7 @@ namespace sgdm { // Stevens Game Development Memory.
                 totalDeallocations += count;
 
                 delete memoryBlock;
+		memoryBlock = NULL;
         }
 
         /* Return the number of allocations. */

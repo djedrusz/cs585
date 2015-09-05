@@ -1,4 +1,4 @@
-# Install script for directory: /home/dom/Desktop/cs585/assignment2
+# Install script for directory: /home/dom/Desktop/cs585
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/dom/Desktop/cs585/assignment2/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/dom/Desktop/cs585/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/dom/Desktop/cs585/assignment2/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/dom/Desktop/cs585/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

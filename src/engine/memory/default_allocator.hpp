@@ -8,6 +8,7 @@
 #ifndef INCLUDED_DEFAULT_ALLOCATOR
 #define INCLUDED_DEFAULT_ALLOCATOR
 
+#include <cstdio> // Delete later.
 #include "allocator.hpp"
 
 namespace sgdm { // Stevens Game Development Memory.
@@ -30,7 +31,11 @@ namespace sgdm { // Stevens Game Development Memory.
         /* Deallocate the specified amount of memory from the specified memory block. */
         template<typename T>
         void DefaultAllocator<T>::deallocate(T* memoryBlock, unsigned int count) {
-                delete memoryBlock;
+                printf("%i\n", memoryBlock);
+		delete memoryBlock;
+                printf("%i\n", memoryBlock);
+		memoryBlock = NULL;
+                printf("%i\n", memoryBlock);
         }
 
 }

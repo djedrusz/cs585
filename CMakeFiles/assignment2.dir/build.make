@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dom/Desktop/cs585/assignment2
+CMAKE_SOURCE_DIR = /home/dom/Desktop/cs585
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dom/Desktop/cs585/assignment2
+CMAKE_BINARY_DIR = /home/dom/Desktop/cs585
 
 # Include any dependencies generated for this target.
 include CMakeFiles/assignment2.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/assignment2.dir/flags.make
 
 CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o: CMakeFiles/assignment2.dir/flags.make
 CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o: src/engine/memory/allocator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/assignment2/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o -c /home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o -c /home/dom/Desktop/cs585/src/engine/memory/allocator.cpp
 
 CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.cpp > CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/src/engine/memory/allocator.cpp > CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.i
 
 CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/assignment2/src/engine/memory/allocator.cpp -o CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/src/engine/memory/allocator.cpp -o CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.s
 
 CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o.requires:
 .PHONY : CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o.provides.build: CMa
 
 CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o: CMakeFiles/assignment2.dir/flags.make
 CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o: src/engine/memory/default_allocator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/assignment2/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o -c /home/dom/Desktop/cs585/assignment2/src/engine/memory/default_allocator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o -c /home/dom/Desktop/cs585/src/engine/memory/default_allocator.cpp
 
 CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/assignment2/src/engine/memory/default_allocator.cpp > CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/src/engine/memory/default_allocator.cpp > CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.i
 
 CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/assignment2/src/engine/memory/default_allocator.cpp -o CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/src/engine/memory/default_allocator.cpp -o CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.s
 
 CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o.requires:
 .PHONY : CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o.requires
@@ -97,17 +97,17 @@ CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o.provides.bu
 
 CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o: CMakeFiles/assignment2.dir/flags.make
 CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o: src/engine/memory/counting_allocator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/assignment2/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o -c /home/dom/Desktop/cs585/assignment2/src/engine/memory/counting_allocator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o -c /home/dom/Desktop/cs585/src/engine/memory/counting_allocator.cpp
 
 CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/assignment2/src/engine/memory/counting_allocator.cpp > CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/src/engine/memory/counting_allocator.cpp > CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.i
 
 CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/assignment2/src/engine/memory/counting_allocator.cpp -o CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/src/engine/memory/counting_allocator.cpp -o CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.s
 
 CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o.requires:
 .PHONY : CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o.requires
@@ -120,17 +120,17 @@ CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o.provides.b
 
 CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o: CMakeFiles/assignment2.dir/flags.make
 CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o: src/engine/containers/dynamic_array.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/assignment2/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o -c /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o -c /home/dom/Desktop/cs585/src/engine/containers/dynamic_array.cpp
 
 CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.cpp > CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/src/engine/containers/dynamic_array.cpp > CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i
 
 CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/assignment2/src/engine/containers/dynamic_array.cpp -o CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/src/engine/containers/dynamic_array.cpp -o CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s
 
 CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.requires:
 .PHONY : CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.requires
@@ -143,17 +143,17 @@ CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o.provides.bu
 
 CMakeFiles/assignment2.dir/game.m.cpp.o: CMakeFiles/assignment2.dir/flags.make
 CMakeFiles/assignment2.dir/game.m.cpp.o: game.m.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/assignment2/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/assignment2.dir/game.m.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/game.m.cpp.o -c /home/dom/Desktop/cs585/assignment2/game.m.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/assignment2.dir/game.m.cpp.o -c /home/dom/Desktop/cs585/game.m.cpp
 
 CMakeFiles/assignment2.dir/game.m.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment2.dir/game.m.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/assignment2/game.m.cpp > CMakeFiles/assignment2.dir/game.m.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dom/Desktop/cs585/game.m.cpp > CMakeFiles/assignment2.dir/game.m.cpp.i
 
 CMakeFiles/assignment2.dir/game.m.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment2.dir/game.m.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/assignment2/game.m.cpp -o CMakeFiles/assignment2.dir/game.m.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dom/Desktop/cs585/game.m.cpp -o CMakeFiles/assignment2.dir/game.m.cpp.s
 
 CMakeFiles/assignment2.dir/game.m.cpp.o.requires:
 .PHONY : CMakeFiles/assignment2.dir/game.m.cpp.o.requires
@@ -201,6 +201,6 @@ CMakeFiles/assignment2.dir/clean:
 .PHONY : CMakeFiles/assignment2.dir/clean
 
 CMakeFiles/assignment2.dir/depend:
-	cd /home/dom/Desktop/cs585/assignment2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dom/Desktop/cs585/assignment2 /home/dom/Desktop/cs585/assignment2 /home/dom/Desktop/cs585/assignment2 /home/dom/Desktop/cs585/assignment2 /home/dom/Desktop/cs585/assignment2/CMakeFiles/assignment2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dom/Desktop/cs585 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dom/Desktop/cs585 /home/dom/Desktop/cs585 /home/dom/Desktop/cs585 /home/dom/Desktop/cs585 /home/dom/Desktop/cs585/CMakeFiles/assignment2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/assignment2.dir/depend
 

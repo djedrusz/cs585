@@ -1,0 +1,2 @@
+/home/dom/Desktop/cs585/mybuild/CMakeFiles/gtest.dir
+/home/dom/Desktop/cs585/mybuild/CMakeFiles/gtest_main.dir
