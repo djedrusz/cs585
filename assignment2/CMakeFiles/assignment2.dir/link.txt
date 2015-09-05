@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o CMakeFiles/assignment2.dir/game.m.cpp.o  -o assignment2 -rdynamic 
