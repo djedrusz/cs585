@@ -1,6 +1,6 @@
 language: c++
 
 notifications:
-email:false
+  email: false
 
 before_script: cd tests
