@@ -3,4 +3,4 @@ language: c++
 notifications:
   email: false
 
-script: ./test_trivial
+script: make ./test

@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=tests
+CMAKE_PROJECT_NAME:STATIC=test
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -175,6 +175,18 @@ assignment2_BINARY_DIR:STATIC=/home/dom/Desktop/cs585
 
 //Value Computed by CMake
 assignment2_SOURCE_DIR:STATIC=/home/dom/Desktop/cs585
+
+//Value Computed by CMake
+game.m_BINARY_DIR:STATIC=/home/dom/Desktop/cs585
+
+//Value Computed by CMake
+game.m_SOURCE_DIR:STATIC=/home/dom/Desktop/cs585
+
+//Value Computed by CMake
+test_BINARY_DIR:STATIC=/home/dom/Desktop/cs585
+
+//Value Computed by CMake
+test_SOURCE_DIR:STATIC=/home/dom/Desktop/cs585
 
 //Value Computed by CMake
 tests_BINARY_DIR:STATIC=/home/dom/Desktop/cs585

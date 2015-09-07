@@ -99,41 +99,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_trivial
+# Target rules for targets named test
 
 # Build rule for target.
-test_trivial: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_trivial
-.PHONY : test_trivial
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-test_trivial/fast:
-	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/build
-.PHONY : test_trivial/fast
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
-test_trivial.o: test_trivial.cpp.o
-.PHONY : test_trivial.o
+game.m.o: game.m.cpp.o
+.PHONY : game.m.o
 
 # target to build an object file
-test_trivial.cpp.o:
-	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.o
-.PHONY : test_trivial.cpp.o
+game.m.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/game.m.cpp.o
+.PHONY : game.m.cpp.o
 
-test_trivial.i: test_trivial.cpp.i
-.PHONY : test_trivial.i
+game.m.i: game.m.cpp.i
+.PHONY : game.m.i
 
 # target to preprocess a source file
-test_trivial.cpp.i:
-	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.i
-.PHONY : test_trivial.cpp.i
+game.m.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/game.m.cpp.i
+.PHONY : game.m.cpp.i
 
-test_trivial.s: test_trivial.cpp.s
-.PHONY : test_trivial.s
+game.m.s: game.m.cpp.s
+.PHONY : game.m.s
 
 # target to generate assembly for a file
-test_trivial.cpp.s:
-	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.s
-.PHONY : test_trivial.cpp.s
+game.m.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/game.m.cpp.s
+.PHONY : game.m.cpp.s
 
 # Help Target
 help:
@@ -143,10 +143,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test_trivial"
-	@echo "... test_trivial.o"
-	@echo "... test_trivial.i"
-	@echo "... test_trivial.s"
+	@echo "... test"
+	@echo "... game.m.o"
+	@echo "... game.m.i"
+	@echo "... game.m.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/home/dom/Desktop/cs585/CMakeFiles/test_trivial.dir
+/home/dom/Desktop/cs585/CMakeFiles/test.dir
