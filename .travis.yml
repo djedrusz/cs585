@@ -3,4 +3,5 @@ language: c++
 notifications:
   email: false
 
+before_script: 'cmake .'
 script: make ./test
