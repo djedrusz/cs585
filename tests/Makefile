@@ -99,24 +99,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tests
+# Target rules for targets named test_trivial
 
 # Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
+test_trivial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_trivial
+.PHONY : test_trivial
 
 # fast build rule for target.
-tests/fast:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-.PHONY : tests/fast
+test_trivial/fast:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/build
+.PHONY : test_trivial/fast
 
 test_trivial.o: test_trivial.cpp.o
 .PHONY : test_trivial.o
 
 # target to build an object file
 test_trivial.cpp.o:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/test_trivial.cpp.o
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.o
 .PHONY : test_trivial.cpp.o
 
 test_trivial.i: test_trivial.cpp.i
@@ -124,7 +124,7 @@ test_trivial.i: test_trivial.cpp.i
 
 # target to preprocess a source file
 test_trivial.cpp.i:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/test_trivial.cpp.i
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.i
 .PHONY : test_trivial.cpp.i
 
 test_trivial.s: test_trivial.cpp.s
@@ -132,7 +132,7 @@ test_trivial.s: test_trivial.cpp.s
 
 # target to generate assembly for a file
 test_trivial.cpp.s:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/test_trivial.cpp.s
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.s
 .PHONY : test_trivial.cpp.s
 
 # Help Target
@@ -143,7 +143,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... tests"
+	@echo "... test_trivial"
 	@echo "... test_trivial.o"
 	@echo "... test_trivial.i"
 	@echo "... test_trivial.s"

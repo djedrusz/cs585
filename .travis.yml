@@ -4,3 +4,5 @@ notifications:
   email: false
 
 before_script: cd tests
+
+script: make ./test_trivial
