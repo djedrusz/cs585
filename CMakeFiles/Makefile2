@@ -53,38 +53,73 @@ CMAKE_SOURCE_DIR = /home/dom/Desktop/cs585
 CMAKE_BINARY_DIR = /home/dom/Desktop/cs585
 
 #=============================================================================
-# Target rules for target CMakeFiles/test.dir
+# Target rules for target CMakeFiles/game.dir
 
 # All Build rule for target.
-CMakeFiles/test.dir/all:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+CMakeFiles/game.dir/all:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/depend
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles  1
-	@echo "Built target test"
-.PHONY : CMakeFiles/test.dir/all
+	@echo "Built target game"
+.PHONY : CMakeFiles/game.dir/all
 
 # Include target in all.
-all: CMakeFiles/test.dir/all
+all: CMakeFiles/game.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test.dir/rule: cmake_check_build_system
+CMakeFiles/game.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 0
-.PHONY : CMakeFiles/test.dir/rule
+.PHONY : CMakeFiles/game.dir/rule
 
 # Convenience name for target.
-test: CMakeFiles/test.dir/rule
-.PHONY : test
+game: CMakeFiles/game.dir/rule
+.PHONY : game
 
 # clean rule for target.
-CMakeFiles/test.dir/clean:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
-.PHONY : CMakeFiles/test.dir/clean
+CMakeFiles/game.dir/clean:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/clean
+.PHONY : CMakeFiles/game.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/game.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_trivial.dir
+
+# All Build rule for target.
+CMakeFiles/test_trivial.dir/all:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/depend
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles  2
+	@echo "Built target test_trivial"
+.PHONY : CMakeFiles/test_trivial.dir/all
+
+# Include target in all.
+all: CMakeFiles/test_trivial.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_trivial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_trivial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 0
+.PHONY : CMakeFiles/test_trivial.dir/rule
+
+# Convenience name for target.
+test_trivial: CMakeFiles/test_trivial.dir/rule
+.PHONY : test_trivial
+
+# clean rule for target.
+CMakeFiles/test_trivial.dir/clean:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/clean
+.PHONY : CMakeFiles/test_trivial.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test_trivial.dir/clean
 .PHONY : clean
 
 #=============================================================================

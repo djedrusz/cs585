@@ -99,24 +99,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named game
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
+game: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 game
+.PHONY : game
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+game/fast:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
+.PHONY : game/fast
+
+#=============================================================================
+# Target rules for targets named test_trivial
+
+# Build rule for target.
+test_trivial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_trivial
+.PHONY : test_trivial
+
+# fast build rule for target.
+test_trivial/fast:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/build
+.PHONY : test_trivial/fast
 
 game.m.o: game.m.cpp.o
 .PHONY : game.m.o
 
 # target to build an object file
 game.m.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/game.m.cpp.o
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game.m.cpp.o
 .PHONY : game.m.cpp.o
 
 game.m.i: game.m.cpp.i
@@ -124,7 +137,7 @@ game.m.i: game.m.cpp.i
 
 # target to preprocess a source file
 game.m.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/game.m.cpp.i
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game.m.cpp.i
 .PHONY : game.m.cpp.i
 
 game.m.s: game.m.cpp.s
@@ -132,8 +145,32 @@ game.m.s: game.m.cpp.s
 
 # target to generate assembly for a file
 game.m.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/game.m.cpp.s
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game.m.cpp.s
 .PHONY : game.m.cpp.s
+
+test_trivial.o: test_trivial.cpp.o
+.PHONY : test_trivial.o
+
+# target to build an object file
+test_trivial.cpp.o:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.o
+.PHONY : test_trivial.cpp.o
+
+test_trivial.i: test_trivial.cpp.i
+.PHONY : test_trivial.i
+
+# target to preprocess a source file
+test_trivial.cpp.i:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.i
+.PHONY : test_trivial.cpp.i
+
+test_trivial.s: test_trivial.cpp.s
+.PHONY : test_trivial.s
+
+# target to generate assembly for a file
+test_trivial.cpp.s:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.s
+.PHONY : test_trivial.cpp.s
 
 # Help Target
 help:
@@ -142,11 +179,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... game"
 	@echo "... rebuild_cache"
-	@echo "... test"
+	@echo "... test_trivial"
 	@echo "... game.m.o"
 	@echo "... game.m.i"
 	@echo "... game.m.s"
+	@echo "... test_trivial.o"
+	@echo "... test_trivial.i"
+	@echo "... test_trivial.s"
 .PHONY : help
 
 
