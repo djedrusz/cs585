@@ -1,6 +1,5 @@
 language: c++
 
-notifications:
-	email: false
+notifications: email: false
 
 before_script: cd tests
