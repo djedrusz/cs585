@@ -3,6 +3,5 @@ language: c++
 notifications:
   email: false
 
-before_install: 'cd tests'
 before_script: 'ls -l'
 script: 'make ./test_trivial'
