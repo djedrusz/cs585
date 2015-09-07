@@ -1,2 +1,4 @@
 /home/dom/Desktop/cs585/CMakeFiles/game.dir
+/home/dom/Desktop/cs585/CMakeFiles/test_counting_allocator.dir
+/home/dom/Desktop/cs585/CMakeFiles/test_default_allocator.dir
 /home/dom/Desktop/cs585/CMakeFiles/test_trivial.dir

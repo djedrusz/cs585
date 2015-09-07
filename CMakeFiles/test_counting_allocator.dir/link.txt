@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test_counting_allocator.dir/test_counting_allocator.cpp.o  -o test_counting_allocator  -Lmybuild -rdynamic -lgtest -lgtest_main -lpthread -Wl,-rpath,mybuild 

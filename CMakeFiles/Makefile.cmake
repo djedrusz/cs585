@@ -47,5 +47,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/game.dir/DependInfo.cmake"
+  "CMakeFiles/test_counting_allocator.dir/DependInfo.cmake"
+  "CMakeFiles/test_default_allocator.dir/DependInfo.cmake"
   "CMakeFiles/test_trivial.dir/DependInfo.cmake"
   )

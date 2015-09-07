@@ -5,8 +5,8 @@
 	Tests for the "CountingAllocator" class.
 */
 
-#include "../gtest/include/gtest/gtest.h"
-#include "../src/engine/memory/counting_allocator.hpp"
+#include "gtest/include/gtest/gtest.h"
+#include "src/engine/memory/counting_allocator.hpp"
 
 using namespace sgdm;
 

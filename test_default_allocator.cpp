@@ -5,8 +5,8 @@
 	Tests for the "DefaultAllocator" class.
 */
 
-#include "../gtest/include/gtest/gtest.h"
-#include "../src/engine/memory/default_allocator.hpp"
+#include "gtest/include/gtest/gtest.h"
+#include "src/engine/memory/default_allocator.hpp"
 
 using namespace sgdm;
 

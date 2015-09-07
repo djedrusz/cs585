@@ -112,6 +112,32 @@ game/fast:
 .PHONY : game/fast
 
 #=============================================================================
+# Target rules for targets named test_counting_allocator
+
+# Build rule for target.
+test_counting_allocator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_counting_allocator
+.PHONY : test_counting_allocator
+
+# fast build rule for target.
+test_counting_allocator/fast:
+	$(MAKE) -f CMakeFiles/test_counting_allocator.dir/build.make CMakeFiles/test_counting_allocator.dir/build
+.PHONY : test_counting_allocator/fast
+
+#=============================================================================
+# Target rules for targets named test_default_allocator
+
+# Build rule for target.
+test_default_allocator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_default_allocator
+.PHONY : test_default_allocator
+
+# fast build rule for target.
+test_default_allocator/fast:
+	$(MAKE) -f CMakeFiles/test_default_allocator.dir/build.make CMakeFiles/test_default_allocator.dir/build
+.PHONY : test_default_allocator/fast
+
+#=============================================================================
 # Target rules for targets named test_trivial
 
 # Build rule for target.
@@ -148,6 +174,54 @@ game.m.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game.m.cpp.s
 .PHONY : game.m.cpp.s
 
+test_counting_allocator.o: test_counting_allocator.cpp.o
+.PHONY : test_counting_allocator.o
+
+# target to build an object file
+test_counting_allocator.cpp.o:
+	$(MAKE) -f CMakeFiles/test_counting_allocator.dir/build.make CMakeFiles/test_counting_allocator.dir/test_counting_allocator.cpp.o
+.PHONY : test_counting_allocator.cpp.o
+
+test_counting_allocator.i: test_counting_allocator.cpp.i
+.PHONY : test_counting_allocator.i
+
+# target to preprocess a source file
+test_counting_allocator.cpp.i:
+	$(MAKE) -f CMakeFiles/test_counting_allocator.dir/build.make CMakeFiles/test_counting_allocator.dir/test_counting_allocator.cpp.i
+.PHONY : test_counting_allocator.cpp.i
+
+test_counting_allocator.s: test_counting_allocator.cpp.s
+.PHONY : test_counting_allocator.s
+
+# target to generate assembly for a file
+test_counting_allocator.cpp.s:
+	$(MAKE) -f CMakeFiles/test_counting_allocator.dir/build.make CMakeFiles/test_counting_allocator.dir/test_counting_allocator.cpp.s
+.PHONY : test_counting_allocator.cpp.s
+
+test_default_allocator.o: test_default_allocator.cpp.o
+.PHONY : test_default_allocator.o
+
+# target to build an object file
+test_default_allocator.cpp.o:
+	$(MAKE) -f CMakeFiles/test_default_allocator.dir/build.make CMakeFiles/test_default_allocator.dir/test_default_allocator.cpp.o
+.PHONY : test_default_allocator.cpp.o
+
+test_default_allocator.i: test_default_allocator.cpp.i
+.PHONY : test_default_allocator.i
+
+# target to preprocess a source file
+test_default_allocator.cpp.i:
+	$(MAKE) -f CMakeFiles/test_default_allocator.dir/build.make CMakeFiles/test_default_allocator.dir/test_default_allocator.cpp.i
+.PHONY : test_default_allocator.cpp.i
+
+test_default_allocator.s: test_default_allocator.cpp.s
+.PHONY : test_default_allocator.s
+
+# target to generate assembly for a file
+test_default_allocator.cpp.s:
+	$(MAKE) -f CMakeFiles/test_default_allocator.dir/build.make CMakeFiles/test_default_allocator.dir/test_default_allocator.cpp.s
+.PHONY : test_default_allocator.cpp.s
+
 test_trivial.o: test_trivial.cpp.o
 .PHONY : test_trivial.o
 
@@ -181,10 +255,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... game"
 	@echo "... rebuild_cache"
+	@echo "... test_counting_allocator"
+	@echo "... test_default_allocator"
 	@echo "... test_trivial"
 	@echo "... game.m.o"
 	@echo "... game.m.i"
 	@echo "... game.m.s"
+	@echo "... test_counting_allocator.o"
+	@echo "... test_counting_allocator.i"
+	@echo "... test_counting_allocator.s"
+	@echo "... test_default_allocator.o"
+	@echo "... test_default_allocator.i"
+	@echo "... test_default_allocator.s"
 	@echo "... test_trivial.o"
 	@echo "... test_trivial.i"
 	@echo "... test_trivial.s"

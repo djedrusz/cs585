@@ -8,12 +8,12 @@
 #ifndef INCLUDED_COUNTING_ALLOCATOR
 #define INCLUDED_COUNTING_ALLOCATOR
 
-#include "allocator.hpp"
+#include "default_allocator.hpp"
 
 namespace sgdm { // Stevens Game Development Memory.
 	/* An allocator which counts allocations and deallocations for each instance, and all instances. */
 	template<typename T>
-	class CountingAllocator : public Allocator<T> {
+	class CountingAllocator : public DefaultAllocator<T> {
 		private:
 			/* Data member(s). */
 			unsigned int allocations; // The number of allocations.

@@ -88,13 +88,83 @@ clean: CMakeFiles/game.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/test_counting_allocator.dir
+
+# All Build rule for target.
+CMakeFiles/test_counting_allocator.dir/all:
+	$(MAKE) -f CMakeFiles/test_counting_allocator.dir/build.make CMakeFiles/test_counting_allocator.dir/depend
+	$(MAKE) -f CMakeFiles/test_counting_allocator.dir/build.make CMakeFiles/test_counting_allocator.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles  2
+	@echo "Built target test_counting_allocator"
+.PHONY : CMakeFiles/test_counting_allocator.dir/all
+
+# Include target in all.
+all: CMakeFiles/test_counting_allocator.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_counting_allocator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_counting_allocator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 0
+.PHONY : CMakeFiles/test_counting_allocator.dir/rule
+
+# Convenience name for target.
+test_counting_allocator: CMakeFiles/test_counting_allocator.dir/rule
+.PHONY : test_counting_allocator
+
+# clean rule for target.
+CMakeFiles/test_counting_allocator.dir/clean:
+	$(MAKE) -f CMakeFiles/test_counting_allocator.dir/build.make CMakeFiles/test_counting_allocator.dir/clean
+.PHONY : CMakeFiles/test_counting_allocator.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test_counting_allocator.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_default_allocator.dir
+
+# All Build rule for target.
+CMakeFiles/test_default_allocator.dir/all:
+	$(MAKE) -f CMakeFiles/test_default_allocator.dir/build.make CMakeFiles/test_default_allocator.dir/depend
+	$(MAKE) -f CMakeFiles/test_default_allocator.dir/build.make CMakeFiles/test_default_allocator.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles  3
+	@echo "Built target test_default_allocator"
+.PHONY : CMakeFiles/test_default_allocator.dir/all
+
+# Include target in all.
+all: CMakeFiles/test_default_allocator.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_default_allocator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_default_allocator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 0
+.PHONY : CMakeFiles/test_default_allocator.dir/rule
+
+# Convenience name for target.
+test_default_allocator: CMakeFiles/test_default_allocator.dir/rule
+.PHONY : test_default_allocator
+
+# clean rule for target.
+CMakeFiles/test_default_allocator.dir/clean:
+	$(MAKE) -f CMakeFiles/test_default_allocator.dir/build.make CMakeFiles/test_default_allocator.dir/clean
+.PHONY : CMakeFiles/test_default_allocator.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test_default_allocator.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/test_trivial.dir
 
 # All Build rule for target.
 CMakeFiles/test_trivial.dir/all:
 	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/depend
 	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles  4
 	@echo "Built target test_trivial"
 .PHONY : CMakeFiles/test_trivial.dir/all
 
