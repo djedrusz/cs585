@@ -21,7 +21,7 @@ TEST(DefaultAllocator, Allocation) {
 
 TEST(DefaultAllocator, Deallocation) {
 	defaultAllocator.deallocate(memoryBlock, 10);
-	printf("%i\n", memoryBlock);
+	printf("%p\n", memoryBlock);
 	EXPECT_TRUE(memoryBlock == NULL);
 }
 

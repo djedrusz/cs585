@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/tests.dir/test_trivial.cpp.o  -o tests  -L../mybuild -rdynamic -lgtest -lgtest_main -lpthread -Wl,-rpath,../mybuild 

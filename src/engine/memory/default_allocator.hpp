@@ -23,21 +23,20 @@ namespace sgdm { // Stevens Game Development Memory.
 	};
 
 	/* Allocate the specified amount of memory and return a pointer to the newly allocated memory block. */
-        template<typename T>
-        T* DefaultAllocator<T>::allocate(unsigned int count) {
-                return new T[count];
-        }
+	template<typename T>
+	T* DefaultAllocator<T>::allocate(unsigned int count) {
+	    return new T[count];
+	}
 
-        /* Deallocate the specified amount of memory from the specified memory block. */
-        template<typename T>
-        void DefaultAllocator<T>::deallocate(T* memoryBlock, unsigned int count) {
-                printf("%i\n", memoryBlock);
+	/* Deallocate the specified amount of memory from the specified memory block. */
+	template<typename T>
+	void DefaultAllocator<T>::deallocate(T* memoryBlock, unsigned int count) {
+		printf("%p\n", memoryBlock);
 		delete memoryBlock;
-                printf("%i\n", memoryBlock);
+	    printf("%p\n", memoryBlock);
 		memoryBlock = NULL;
-                printf("%i\n", memoryBlock);
-        }
-
+	    printf("%p\n", memoryBlock);
+	}
 }
 
 #endif
