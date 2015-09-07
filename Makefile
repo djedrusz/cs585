@@ -99,137 +99,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named assignment2
+# Target rules for targets named test_trivial
 
 # Build rule for target.
-assignment2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assignment2
-.PHONY : assignment2
+test_trivial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_trivial
+.PHONY : test_trivial
 
 # fast build rule for target.
-assignment2/fast:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/build
-.PHONY : assignment2/fast
+test_trivial/fast:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/build
+.PHONY : test_trivial/fast
 
-game.m.o: game.m.cpp.o
-.PHONY : game.m.o
-
-# target to build an object file
-game.m.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/game.m.cpp.o
-.PHONY : game.m.cpp.o
-
-game.m.i: game.m.cpp.i
-.PHONY : game.m.i
-
-# target to preprocess a source file
-game.m.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/game.m.cpp.i
-.PHONY : game.m.cpp.i
-
-game.m.s: game.m.cpp.s
-.PHONY : game.m.s
-
-# target to generate assembly for a file
-game.m.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/game.m.cpp.s
-.PHONY : game.m.cpp.s
-
-src/engine/containers/dynamic_array.o: src/engine/containers/dynamic_array.cpp.o
-.PHONY : src/engine/containers/dynamic_array.o
+test_trivial.o: test_trivial.cpp.o
+.PHONY : test_trivial.o
 
 # target to build an object file
-src/engine/containers/dynamic_array.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.o
-.PHONY : src/engine/containers/dynamic_array.cpp.o
+test_trivial.cpp.o:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.o
+.PHONY : test_trivial.cpp.o
 
-src/engine/containers/dynamic_array.i: src/engine/containers/dynamic_array.cpp.i
-.PHONY : src/engine/containers/dynamic_array.i
-
-# target to preprocess a source file
-src/engine/containers/dynamic_array.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.i
-.PHONY : src/engine/containers/dynamic_array.cpp.i
-
-src/engine/containers/dynamic_array.s: src/engine/containers/dynamic_array.cpp.s
-.PHONY : src/engine/containers/dynamic_array.s
-
-# target to generate assembly for a file
-src/engine/containers/dynamic_array.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/containers/dynamic_array.cpp.s
-.PHONY : src/engine/containers/dynamic_array.cpp.s
-
-src/engine/memory/allocator.o: src/engine/memory/allocator.cpp.o
-.PHONY : src/engine/memory/allocator.o
-
-# target to build an object file
-src/engine/memory/allocator.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.o
-.PHONY : src/engine/memory/allocator.cpp.o
-
-src/engine/memory/allocator.i: src/engine/memory/allocator.cpp.i
-.PHONY : src/engine/memory/allocator.i
+test_trivial.i: test_trivial.cpp.i
+.PHONY : test_trivial.i
 
 # target to preprocess a source file
-src/engine/memory/allocator.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.i
-.PHONY : src/engine/memory/allocator.cpp.i
+test_trivial.cpp.i:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.i
+.PHONY : test_trivial.cpp.i
 
-src/engine/memory/allocator.s: src/engine/memory/allocator.cpp.s
-.PHONY : src/engine/memory/allocator.s
-
-# target to generate assembly for a file
-src/engine/memory/allocator.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/allocator.cpp.s
-.PHONY : src/engine/memory/allocator.cpp.s
-
-src/engine/memory/counting_allocator.o: src/engine/memory/counting_allocator.cpp.o
-.PHONY : src/engine/memory/counting_allocator.o
-
-# target to build an object file
-src/engine/memory/counting_allocator.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.o
-.PHONY : src/engine/memory/counting_allocator.cpp.o
-
-src/engine/memory/counting_allocator.i: src/engine/memory/counting_allocator.cpp.i
-.PHONY : src/engine/memory/counting_allocator.i
-
-# target to preprocess a source file
-src/engine/memory/counting_allocator.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.i
-.PHONY : src/engine/memory/counting_allocator.cpp.i
-
-src/engine/memory/counting_allocator.s: src/engine/memory/counting_allocator.cpp.s
-.PHONY : src/engine/memory/counting_allocator.s
+test_trivial.s: test_trivial.cpp.s
+.PHONY : test_trivial.s
 
 # target to generate assembly for a file
-src/engine/memory/counting_allocator.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/counting_allocator.cpp.s
-.PHONY : src/engine/memory/counting_allocator.cpp.s
-
-src/engine/memory/default_allocator.o: src/engine/memory/default_allocator.cpp.o
-.PHONY : src/engine/memory/default_allocator.o
-
-# target to build an object file
-src/engine/memory/default_allocator.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.o
-.PHONY : src/engine/memory/default_allocator.cpp.o
-
-src/engine/memory/default_allocator.i: src/engine/memory/default_allocator.cpp.i
-.PHONY : src/engine/memory/default_allocator.i
-
-# target to preprocess a source file
-src/engine/memory/default_allocator.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.i
-.PHONY : src/engine/memory/default_allocator.cpp.i
-
-src/engine/memory/default_allocator.s: src/engine/memory/default_allocator.cpp.s
-.PHONY : src/engine/memory/default_allocator.s
-
-# target to generate assembly for a file
-src/engine/memory/default_allocator.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/src/engine/memory/default_allocator.cpp.s
-.PHONY : src/engine/memory/default_allocator.cpp.s
+test_trivial.cpp.s:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/test_trivial.cpp.s
+.PHONY : test_trivial.cpp.s
 
 # Help Target
 help:
@@ -237,24 +141,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... assignment2"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... game.m.o"
-	@echo "... game.m.i"
-	@echo "... game.m.s"
-	@echo "... src/engine/containers/dynamic_array.o"
-	@echo "... src/engine/containers/dynamic_array.i"
-	@echo "... src/engine/containers/dynamic_array.s"
-	@echo "... src/engine/memory/allocator.o"
-	@echo "... src/engine/memory/allocator.i"
-	@echo "... src/engine/memory/allocator.s"
-	@echo "... src/engine/memory/counting_allocator.o"
-	@echo "... src/engine/memory/counting_allocator.i"
-	@echo "... src/engine/memory/counting_allocator.s"
-	@echo "... src/engine/memory/default_allocator.o"
-	@echo "... src/engine/memory/default_allocator.i"
-	@echo "... src/engine/memory/default_allocator.s"
+	@echo "... test_trivial"
+	@echo "... test_trivial.o"
+	@echo "... test_trivial.i"
+	@echo "... test_trivial.s"
 .PHONY : help
 
 

@@ -53,38 +53,38 @@ CMAKE_SOURCE_DIR = /home/dom/Desktop/cs585
 CMAKE_BINARY_DIR = /home/dom/Desktop/cs585
 
 #=============================================================================
-# Target rules for target CMakeFiles/assignment2.dir
+# Target rules for target CMakeFiles/test_trivial.dir
 
 # All Build rule for target.
-CMakeFiles/assignment2.dir/all:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/depend
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles  1 2 3 4 5
-	@echo "Built target assignment2"
-.PHONY : CMakeFiles/assignment2.dir/all
+CMakeFiles/test_trivial.dir/all:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/depend
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dom/Desktop/cs585/CMakeFiles  1
+	@echo "Built target test_trivial"
+.PHONY : CMakeFiles/test_trivial.dir/all
 
 # Include target in all.
-all: CMakeFiles/assignment2.dir/all
+all: CMakeFiles/test_trivial.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/assignment2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/assignment2.dir/all
+CMakeFiles/test_trivial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_trivial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dom/Desktop/cs585/CMakeFiles 0
-.PHONY : CMakeFiles/assignment2.dir/rule
+.PHONY : CMakeFiles/test_trivial.dir/rule
 
 # Convenience name for target.
-assignment2: CMakeFiles/assignment2.dir/rule
-.PHONY : assignment2
+test_trivial: CMakeFiles/test_trivial.dir/rule
+.PHONY : test_trivial
 
 # clean rule for target.
-CMakeFiles/assignment2.dir/clean:
-	$(MAKE) -f CMakeFiles/assignment2.dir/build.make CMakeFiles/assignment2.dir/clean
-.PHONY : CMakeFiles/assignment2.dir/clean
+CMakeFiles/test_trivial.dir/clean:
+	$(MAKE) -f CMakeFiles/test_trivial.dir/build.make CMakeFiles/test_trivial.dir/clean
+.PHONY : CMakeFiles/test_trivial.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/assignment2.dir/clean
+clean: CMakeFiles/test_trivial.dir/clean
 .PHONY : clean
 
 #=============================================================================

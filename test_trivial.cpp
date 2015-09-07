@@ -5,7 +5,7 @@
 	Trivial tests for CMake/GoogleTest/TravisCI Integration testing.
 */
 
-#include "../gtest/include/gtest/gtest.h"
+#include "gtest/include/gtest/gtest.h"
 
 /* Integer addition test. */
 TEST(IntegerArithmetic, Addition) {
