@@ -3,6 +3,6 @@ language: c++
 notifications:
   email: false
 
-before_script: cd ~/tests
+before_script: 'cd tests'
 
-script: make ./test_trivial
+script: 'make ./test_trivial'
