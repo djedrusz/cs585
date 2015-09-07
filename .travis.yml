@@ -3,5 +3,5 @@ language: c++
 notifications:
   email: false
 
-before_script: 'cmake .'
+before_script: 'rm CMakeCache.txt && cmake .'
 script: make ./test
